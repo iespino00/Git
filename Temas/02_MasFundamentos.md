@@ -28,3 +28,9 @@
   ![alt text](https://raw.githubusercontent.com/iespino00/Git/master/images/reset_soft.PNG "Git Reset --soft HEAD^")
 
   **En la imagen anterior podemos observar que aparece una M de color verde y una M de color rojo significa que se modificó y a la vez se agregó.** 
+
+* **git reset --soft NumeroDeHashDelCommit** = Puedo regresar a un commit para hacerle cambios a uno de los archivos agregados en dicho commit, veamos un ejemplo:
+
+  ![alt text](https://raw.githubusercontent.com/iespino00/Git/master/images/resetHash.PNG "Git Reset --soft HEAD^")
+
+  Donde primeramente hicimos un reset o nos movimos a la linea del tiempo de un commit, para posteriormente modificar el archivo y agregar lineas de codigo, después hicimos un add y un commit actualizando en el cual nos habiamos movido.
