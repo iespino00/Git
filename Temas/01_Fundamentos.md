@@ -59,6 +59,11 @@ Ver los siguientes registros:
 
   * **git commit -am "Agregar y Commit"** = Se agregan los archivos al stage y posteriormente se hace el commit con ese mensaje.
 
+  * **git commit** = Si yo no especifico el comando ``-m ó -am``Me pondrá en modo de edición. Donde podré teclear el mensaje presionando la tecla **A** , posteriormente para salir del modo de edición se preciona ``Esq, : , wq + Enter``. Puedes veririficar el commit agregado con el log. Veamos como se ve en la consola de comandos lo anteriormencionado:
+
+![alt text](https://raw.githubusercontent.com/iespino00/Git/master/images/gitCommit.PNG "Git commit")
+
+
 **7.** **git checkout -- .** = Recupera todos los archivos a su anterior commit.
 
 **8.** **git log** = Nos muestra en log de commits, con un has que es un código relacionado al commit, el autor, la fecha, y el mensaje del commit en su momento creado, el listado se muestra del commit mas reciente al más antiguo.
