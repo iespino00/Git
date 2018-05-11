@@ -34,3 +34,9 @@
   ![alt text](https://raw.githubusercontent.com/iespino00/Git/master/images/resetHash.PNG "Git Reset --soft HEAD^")
 
   Donde primeramente hicimos un reset o nos movimos a la linea del tiempo de un commit, para posteriormente modificar el archivo y agregar lineas de codigo, después hicimos un add y un commit actualizando en el cual nos habiamos movido.
+
+  * **git reset --mixed** = Sirve para moverse a un commit cual sea, pero eliminará los commits posteriores al cual nos posicionemos pero **sin perder los cambios realizados en los commits** por ejemplo:
+
+    ![alt text](https://raw.githubusercontent.com/iespino00/Git/master/images/reset_mixed.PNG "Git Reset --mixed")
+
+    En este ejemplo podemos ver, que con ``git reset --mixed f3da3e9`` Nos movimos a ese has del commit (Agregamos Historias de los Heroes), y una vez ejecutado el comando, nos desapareció los 2 commits anteriores, mas sin embargo, no se eliminaron los cambios hechos en esos 2 commits.
