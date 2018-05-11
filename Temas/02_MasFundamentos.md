@@ -13,6 +13,9 @@
 
 **4.** **git commit -am "Agregar Archivos y Commit"** = Se agregan los archivos al stage y posteriormente se hace el commit con ese mensaje.
 
+****
+## Actualizar mensajes del commit
+****
 
 **5.** **git commit --amend -m "Mensaje de Commit a cambiar"** = Se modifica el mensaje del commit anteriormente agregado.
 
@@ -20,6 +23,10 @@
 
     ![alt text](https://raw.githubusercontent.com/iespino00/Git/master/images/commitAmend.PNG "Git Reset --soft HEAD^")
 
+****
+## Viajes en el tiempo 
+### **reset --soft , reset --mixed y reset --hard**
+****
 
 **6.** **Si por accidente ya hice el commit, pero necesito realizar mas cambios en los archivos e incluirlos en el commit ya ejecutado, se utiliza el siguiente comando**
 
@@ -62,5 +69,10 @@ Supongamos que siguiendo el paso del punto **6** donde utilizamos el comando ``g
 ![alt text](https://raw.githubusercontent.com/iespino00/Git/master/images/reset_hard_backupRepo.PNG "Git reset hard repo")
 
 Podemos observar que nos posicionabamos en el commit con mensaje: **"Se agrego el archivo readme"**, y una vez aplicando el reset hard, nos devolvió los cambios a ese punto, inclyendo los archivos en el repositorio.
+
+****
+## Cambiar nombre  eliminar archivos mediante Git
+****
+
 
 * *****
