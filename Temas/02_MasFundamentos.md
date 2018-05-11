@@ -40,3 +40,13 @@
     ![alt text](https://raw.githubusercontent.com/iespino00/Git/master/images/reset_mixed.PNG "Git Reset --mixed")
 
     En este ejemplo podemos ver, que con ``git reset --mixed f3da3e9`` Nos movimos a ese has del commit (Agregamos Historias de los Heroes), y una vez ejecutado el comando, nos desapareció los 2 commits anteriores, mas sin embargo, no se eliminaron los cambios hechos en esos 2 commits.
+  
+  * **git reset --hard HashDelCommit** = Este comando nos posiciona en el has del commit que asignemos, pero eliminando tanto los commits, como los cambios en cada uno de los archivos.Por ejemplo en la siguiente imagen podemos ver que nuestro repositorio se conforma por los siguientes archivos:
+
+      ![alt text](https://raw.githubusercontent.com/iespino00/Git/master/images/repositorio_demo4.PNG "Repositorio demo 4")
+
+      Entonces ahora ejecutamos el commando:
+
+      ![alt text](https://raw.githubusercontent.com/iespino00/Git/master/images/reset_hard.PNG "git reset --hard HashDelCommit")
+
+      ![alt text](https://raw.githubusercontent.com/iespino00/Git/master/images/reset_hardRepo.PNG "Repositorio despues de Reset hard")
