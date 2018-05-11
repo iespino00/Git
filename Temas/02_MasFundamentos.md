@@ -18,14 +18,14 @@
 
   * **git commit --amend** = Si no asigno el mensaje como el comando anterior, me abrirá un modo de edición donde tendré que presionar la tecla **A** , para posteriormente corregir el commit, y para guardar y salir del modo de edición presionaré la tecla ``Esc, : , wq + Enter``.Como se muestra en la imagen siguiente:
 
-  ![alt text](https://raw.githubusercontent.com/iespino00/Git/master/images/commitAmend.PNG "Git Reset --soft HEAD^")
+    ![alt text](https://raw.githubusercontent.com/iespino00/Git/master/images/commitAmend.PNG "Git Reset --soft HEAD^")
 
 
-**Si por accidente ya hice el commit, pero necesito realizar mas cambios en los archivos e incluirlos en el commit ya ejecutado, se utiliza el siguiente comando**
+**6.** **Si por accidente ya hice el commit, pero necesito realizar mas cambios en los archivos e incluirlos en el commit ya ejecutado, se utiliza el siguiente comando**
 
  * **git reset --soft HEAD^** = Nos permite regresar al commit anterior, **sin deshacer cambios**, solo para hacer adiciones a archivos y posteriormente volver a ejecutar el **add y el commit** y el **``HEAD^``** es para referenciar al commit anterior. Por ejemplo:
 
-  ![alt text](https://raw.githubusercontent.com/iespino00/Git/master/images/reset_soft.PNG "Git Reset --soft HEAD^")
+   ![alt text](https://raw.githubusercontent.com/iespino00/Git/master/images/reset_soft.PNG "Git Reset --soft HEAD^")
 
   **En la imagen anterior podemos observar que aparece una M de color verde y una M de color rojo significa que se modificó y a la vez se agregó.** 
 
@@ -45,8 +45,15 @@
 
       ![alt text](https://raw.githubusercontent.com/iespino00/Git/master/images/repositorio_demo4.PNG "Repositorio demo 4")
 
-      Entonces ahora ejecutamos el commando:
+      Entonces ahora ejecutamos el commando y podemos ver como nos elimina tanto los commits como los cambios (o archivos):
 
       ![alt text](https://raw.githubusercontent.com/iespino00/Git/master/images/reset_hard.PNG "git reset --hard HashDelCommit")
 
       ![alt text](https://raw.githubusercontent.com/iespino00/Git/master/images/reset_hardRepo.PNG "Repositorio despues de Reset hard")
+
+**7.** **git reflog** = Este comando nos sirve, para visualizar el log de commits aunque ya se hayan hecho comandos de **``reset --soft , reset --hard``** , porque si realizamos un git log, no aparecerá, veamos el ejemplo:
+
+![alt text](https://raw.githubusercontent.com/iespino00/Git/master/images/reflog.PNG "Git reflog")
+
+
+* *****
