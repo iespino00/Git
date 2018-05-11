@@ -55,5 +55,12 @@
 
 ![alt text](https://raw.githubusercontent.com/iespino00/Git/master/images/reflog.PNG "Git reflog")
 
+Supongamos que siguiendo el paso del punto **6** donde utilizamos el comando ``git reset --hard`` , y nos quedamos solamente con el archivo ``README.md``, y queremos volver a recuperar archivos o cambios, y commits aplicados aun se hayan borrado con el reset hard, podemos aplicar nuevamente el comando **``git reset hard``** una vez ubicando el punto en el tiempo al que queremos regresar con el **``git reflog``** , por Ejemplo:
+
+![alt text](https://raw.githubusercontent.com/iespino00/Git/master/images/reset_hard_backup.PNG "Git reset hard")
+
+![alt text](https://raw.githubusercontent.com/iespino00/Git/master/images/reset_hard_backupRepo.PNG "Git reset hard repo")
+
+Podemos observar que nos posicionabamos en el commit con mensaje: **"Se agrego el archivo readme"**, y una vez aplicando el reset hard, nos devolvió los cambios a ese punto, inclyendo los archivos en el repositorio.
 
 * *****
