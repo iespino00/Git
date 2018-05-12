@@ -74,5 +74,16 @@ Podemos observar que nos posicionabamos en el commit con mensaje: **"Se agrego e
 ## Cambiar nombre  eliminar archivos mediante Git
 ****
 
+Para cambiar el nombre a un archivo, podemos ver como se encuentra nuestro repositorio actualmente:
+
+![alt text](https://raw.githubusercontent.com/iespino00/Git/master/images/rename_file.PNG "git mv")
+
+**1.**  **git mv NombreArchivo.extension NewName.extension** = Con este comando indicamos que queremos cambiar el nombre del archivo. En nuestro caso vamos a probar con el siguiente comando **``git mv destruir-mundo.txt salvar-mundo.txt``** 
+
+![alt text](https://raw.githubusercontent.com/iespino00/Git/master/images/rename.PNG "git mv")
+
+Podemos observar que automaticamente lo cambia, nos ponde una **R** y si vemos con **git status** , podemos observar que hace referencia a **``rename``** . Vemos que efectivamente nos hizo el cambio en el repositorio. Y como ya esta en el staged, solamente hacemos un commit para indicar que estamos renombrando el archivo
+
+**2.** **git rm NombreDelArchivo**
 
 * *****
