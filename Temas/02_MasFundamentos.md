@@ -84,6 +84,11 @@ Para cambiar el nombre a un archivo, podemos ver como se encuentra nuestro repos
 
 Podemos observar que automaticamente lo cambia, nos ponde una **R** y si vemos con **git status** , podemos observar que hace referencia a **``rename``** . Vemos que efectivamente nos hizo el cambio en el repositorio. Y como ya esta en el staged, solamente hacemos un commit para indicar que estamos renombrando el archivo
 
-**2.** **git rm NombreDelArchivo**
+**2.** **git rm NombreDelArchivo** = Este comando nos sirve para eliminar archivos, como indica su definición en ingles de **``remove (rm)``** , de igual manera probaremos eliminando un archivo txt ``git rm salvar-mundo.txrt``, y podremos ver que una vez ejecutando el comando, y si hacemos un git status, aparecerá en color verde con una **D de Delete** y automaticamente estará en el **staged** listo para hacer el commit indicando que hemos borrado el archivo.
+
+![alt text](https://raw.githubusercontent.com/iespino00/Git/master/images/remove.PNG "git mv")
+
+
+
 
 * *****
