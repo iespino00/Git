@@ -74,9 +74,12 @@ Podemos observar que nos posicionabamos en el commit con mensaje: **"Se agrego e
 ## Cambiar nombre  eliminar archivos mediante Git
 ****
 
+### Cambiar Nombre:
+
 Para cambiar el nombre a un archivo, podemos ver como se encuentra nuestro repositorio actualmente:
 
 ![alt text](https://raw.githubusercontent.com/iespino00/Git/master/images/rename_file.PNG "git mv")
+
 
 **1.**  **git mv NombreArchivo.extension NewName.extension** = Con este comando indicamos que queremos cambiar el nombre del archivo. En nuestro caso vamos a probar con el siguiente comando **``git mv destruir-mundo.txt salvar-mundo.txt``** 
 
@@ -84,11 +87,35 @@ Para cambiar el nombre a un archivo, podemos ver como se encuentra nuestro repos
 
 Podemos observar que automaticamente lo cambia, nos ponde una **R** y si vemos con **git status** , podemos observar que hace referencia a **``rename``** . Vemos que efectivamente nos hizo el cambio en el repositorio. Y como ya esta en el staged, solamente hacemos un commit para indicar que estamos renombrando el archivo
 
+### Eliminar Archivo:
+
 **2.** **git rm NombreDelArchivo** = Este comando nos sirve para eliminar archivos, como indica su definición en ingles de **``remove (rm)``** , de igual manera probaremos eliminando un archivo txt ``git rm salvar-mundo.txrt``, y podremos ver que una vez ejecutando el comando, y si hacemos un git status, aparecerá en color verde con una **D de Delete** y automaticamente estará en el **staged** listo para hacer el commit indicando que hemos borrado el archivo.
 
 ![alt text](https://raw.githubusercontent.com/iespino00/Git/master/images/remove.PNG "git mv")
 
 
+****
+## Cambiar nombre  eliminar archivos FUERA de Git
+****
 
+### Cambiar Nombre:
+
+Si desde unestro editor de codigo, renombramos un archivo y con git hacemos un status, podremos percatarnos de que aparecenar 2 registros, uno con indicador **D** y otro con signo **?** Porque para git, eliminamos un archivos y creamos otro. Veamos el ejemplo.
+
+![alt text](https://raw.githubusercontent.com/iespino00/Git/master/images/renameFGit.PNG "git mv")
+
+  * Podemos ver que utilizamos el comando **``git u``** (Que indicamos que estamos actualizando (update) ).
+    
+    Posteriormente volvemos a hacer un git status y vemos que aun aparece el archivo con **D** Y otro con **?**.
+
+    Entonces ya solamente hacemos un **``git add -A``** y luego un git status y vemos que ya se agrego al stage el update que hicimos. Entonces ya solo procedemos a hacer el commit indicando el cambio.
+
+### Eliminar Archivo:
+
+Ahora si queremos borrar un archivo desde nuestro editor, lo borramos y procedemos a hacer lo siguiente:
+
+![alt text](https://raw.githubusercontent.com/iespino00/Git/master/images/deleteFGit.PNG "git mv")
+
+   * Podemos observar que despues de borrar el archivo desde el editor, hacemos un ``git status`` y nos pondrá un indicador de **D que significa Delete** Pero no esta en el stage aun (En color Verde). Para ello procedemos a hacer un ``git add -u`` Para indicar que es un update. Después solo hacemos el commit y visualizamos el log de cambios.
 
 * *****
