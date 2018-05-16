@@ -131,7 +131,7 @@ Si tenemos en nuestro repositorio archivos **``.log``** , y queremos que estos s
 
 Dentro del cual, agregamos los archivos y carpetas que queremos excluir, por ejemplo:
 
-![alt text](https://raw.githubusercontent.com/iespino00/Git/master/images/testIgnore.PNG ".gitignore")
+![alt text](https://raw.githubusercontent.com/iespino00/Git/master/images/textIgnore.PNG ".gitignore")
 
 Podemos observar que estamos excluyendo todos los archivos de extensión **``.log``** y todo lo que contiene la carpeta **``node_modules``** Y podemos observar los pasos siguientes, donde primero agregamos el archivo log, posteriormente los archivos con extensión .log los ignoramos, y hacemos un git status y no nos lo muestra, tampoco el node_modules
 
