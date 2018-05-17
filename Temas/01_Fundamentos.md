@@ -102,3 +102,7 @@ De esta manera ya podemos utilizar el alias, en este caso creamos uno para el lo
    link:
 
 [Regresar al Temario](../README.md "MD 2")
+
+[Test](../README.md){.btn.btn-link.btn-sm}
+
+<button href="https://github.com/iespino00/Git" class="button-save large">Regresar al Temario</button>
