@@ -105,4 +105,8 @@ De esta manera ya podemos utilizar el alias, en este caso creamos uno para el lo
 
 [Test](../README.md){.btn.btn-link.btn-sm}
 
-<button href="https://github.com/iespino00/Git" class="button-save large">Regresar al Temario</button>
+<button onclick="https://github.com/iespino00/Git" class="button-save large">Regresar al Temario</button>
+
+Lorem ipsum dolor sit amet.
+
+[Click me](https://github.com/iespino00/Git){: .btn}
