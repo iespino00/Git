@@ -1,5 +1,5 @@
 # **03 RAMAS O BRANCHS**
 
-### Ramas: [Ver ilustración](https://raw.githubusercontent.com/iespino00/Git/master/images/img_branch.PNG "Regresar al Temario")
+### Ramas: [Ver ilustración](https://github.com/iespino00/Git/blob/master/images/img_branch.PNG "Regresar al Temario")
 
 ****
