@@ -99,14 +99,9 @@ De esta manera ya podemos utilizar el alias, en este caso creamos uno para el lo
 
    ![alt text](https://raw.githubusercontent.com/iespino00/Git/master/images/alias.PNG "Git config --global alias.alias 'comando'")
 
-   link:
 
-[Regresar al Temario](../README.md "MD 2")
+****
 
-[Test](../README.md){.btn.btn-link.btn-sm}
+[Regresar al Temario](../README.md "Regresar al Temario")
 
-<button onclick="https://github.com/iespino00/Git" class="button-save large">Regresar al Temario</button>
-
-Lorem ipsum dolor sit amet.
-
-[Click me](https://github.com/iespino00/Git){: .btn}
+****
